@@ -22,6 +22,7 @@ pub struct ReportCard<T> {
     pub student_name: String,
     pub student_age: u8,
 }
+
 //019
 impl<T: std::fmt::Display> ReportCard<T> {
     pub fn print(&self) -> String {
